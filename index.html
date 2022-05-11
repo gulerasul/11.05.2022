@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/3/3d/%D0%9B%D0%BE%D0%B3%D0%BE_Bravo_supermarket.jpg" type="image/x-icon">
+    <title>Market</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body style="display: flex; flex-direction:column; align-items:center;justify-content: center; gap: 20px;">
+    <ul style="display: flex;list-style-type: none;">
+        
+        <li id="createBusket" class=" nav-el " data-target="Səbət" style="padding:16px 22px; cursor: pointer; ">Səbət-yarat</li>
+        <li class="nav-el " data-target="Hesabla" style="padding:16px 22px; cursor: pointer; ">Hesabla</li>
+    </ul>
+    <div class="container">
+        <div class="products ">
+            <h3>Grape</h3>
+            <div class="box">
+                <div class="fruit Grape1" data-id="Grape">
+                    <img src="https://minnetonkaorchards.com/wp-content/uploads/2020/08/Purple-Grapes-on-Table.jpg" alt="Grape "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.50</p>
+                     
+                    </div>
+                </div>
+                <div class="fruit Grape2" data-id="Grape">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Table_grapes_on_white.jpg" alt="Grape "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.65</p>
+                      
+                    </div>
+                </div>
+                <div class="fruit Grape3" data-id="Grape">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbkl10Hcumm-iPbTz_XqDXwsKWUGG5zr0vQ&usqp=CAU " alt="Grape "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.40</p>
+                   
+                    </div>
+                </div>
+            </div><br>
+            <h3>Tomato</h3>
+            <div class="box">
+                <div class="fruit Tomato1" data-id="Tomato">
+                    <img src="https://kiranacompare.com/wp-content/uploads/2020/11/71DYmqoq-VL._SL1024_.jpg" alt="Tomato "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.35</p>
+                      
+                    </div>
+                </div>
+                <div class="fruit Tomato2" data-id="Tomato">
+                    <img src="data:image/jpeg;base64,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 " alt="Tomato "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.45</p>
+                       
+                    </div>
+                </div>
+                <div class="fruit Tomato3" data-id="Tomato">
+                    <img src="https://media.istockphoto.com/photos/tomatoes-isolate-on-white-background-tomato-half-isolated-tomatoes-picture-id1258142863?k=20&m=1258142863&s=612x612&w=0&h=lVLMaX3tiP407SwLUElEifKqHpNRYw4ZR6B0GOycGc4= " alt="Pomegranate "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.25</p>
+                      
+                    </div>
+                </div>
+            </div><br>
+            <h3>Pomegranate</h3>
+            <div class="box">
+                <div class="fruit Pomegranate1" data-id="Pomegranate">
+                    <img src="https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2014/01/10/Production/Health/Images/bigstock-Half-of-pomegranate-on-a-white-12359999.jpg?t=20170517 "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.70</p>
+                     
+                    </div>
+                </div>
+                <div class="fruit Pomegranate2" data-id="Pomegranate">
+                    <img src="https://www.news-medical.net/image.axd?picture=2020%2F12%2Fshutterstock_1291478515.jpg" alt="Pomegranate "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.75</p>
+                       
+                    </div>
+                </div>
+                <div class="fruit Pomegranate3" data-id="Pomegranate">
+                    <img src="https://i5.walmartimages.ca/images/Enlarge/-31/271/999999-31271.jpg" alt="Pomegranate "> <br>
+                    <div class="product-footer ">
+                        <p>Price:0.50</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="basketContainer hide">
+            <div style="display:flex; gap:10px; align-items: center;">
+                <h3 class="basketFruit"></h3>
+                <div class="totalPrice hide"> </div>
+            </div>
+            <div class="basket ">
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
